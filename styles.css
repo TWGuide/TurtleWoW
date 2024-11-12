@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background: url('background-image.jpg') no-repeat center center fixed;
     background-size: cover;
+    background-color: rgb(16, 12, 12);
     color: #ABBDCF;
     margin: 0;
     padding: 0;
@@ -22,6 +23,12 @@ header {
 header h1 {
     margin: 0;
     font-size: 24px;
+}
+.logo {
+    height: 50px; /* Adjust height as needed */
+    max-width: 100%;
+    margin-right: 20px;
+    vertical-align: middle; /* Centers the logo with the nav items */
 }
 
 nav ul {
