@@ -43,7 +43,7 @@ nav li {
 }
 
 nav li a {
-    color: #FFF;
+    color: rgb(126, 190, 75); /* Set the desired green color */
     font-weight: bold;
     text-decoration: none;
     padding: 10px 15px;
@@ -129,7 +129,7 @@ section#tips h2 {
 }
 
 .card a {
-    color: #32CD32; /* Green for links */
+    color: rgb(126, 190, 75); /* Set the desired green color */
     font-weight: bold;
     text-decoration: none;
     margin-top: 10px;
@@ -144,24 +144,3 @@ section#tips h2 {
 /* Footer */
 footer {
     background-color: #111;
-    color: #FFF;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Additional Styling for Lists */
-ul {
-    list-style: none;
-    padding-left: 20px;
-}
-
-ul li {
-    color: #32CD32;
-    font-size: 16px;
-    line-height: 1.8;
-}
-
-ul li::before {
-    content: "• ";
-    color: #FFA500; /* Orange bullet point */
-}
