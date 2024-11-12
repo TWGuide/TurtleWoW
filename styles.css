@@ -1,7 +1,7 @@
 /* Base Styles */
 body {
     font-family: Arial, sans-serif;
-    background: url('background-image.jpg') no-repeat center center fixed;
+    background: url('./assets/Header_Background.webp') no-repeat center center fixed;
     background-size: cover;
     background-color: rgb(16, 12, 12);
     color: #ABBDCF;
